@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.filas {
+    display: flex;
+  
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: flex-end;  
+    
+
+   
+    
+
+  }
+
+
+  .columnas  {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+
+
+  
+  
+    
+    
+  }
+ .columnas a {
+  width: 100%;
+ }
+
+  .columnas img {
+    
+    margin-top: 8px;
+    vertical-align: middle;
+    object-fit: fill;
+    
+    
+  }
+
+  .name {
+    color: white;
+    text-shadow: 2px 2px 4px #00000091;
+   
+  }
+
+  .art {
+    color: white;
+    text-shadow: 2px 2px 4px #737373;
+  }
+
+  .name:hover{
+    
+    cursor: pointer;
+  }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media (max-width: 800px) {
+        .columnas {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media (max-width: 600px) {
+        .columnas {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
