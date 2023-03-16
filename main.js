@@ -1,5 +1,5 @@
 function mensajeForm(){
     let mens = document.getElementById('mensajeForm');
 
-    mens.innerText = "Gracias por comunicarsse con Nosotrs!";
+    mens.innerText = "Thank you for contacting us!";
 }
