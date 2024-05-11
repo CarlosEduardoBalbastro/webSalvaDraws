@@ -5,30 +5,46 @@
 }
 
 
+/* Estilos para el modo claro */
+body {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+
+
+
+.eczar-font {
+  font-family: "Eczar", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.imgPrincipal {
+  border-radius: 24% 76% 26% 74% / 74% 16% 84% 26%  !important;
+}
+
 .filas {
     display: flex;
   
     flex-wrap: wrap;
     padding: 0 4px;
     align-items: flex-end;  
-    
-
-   
-    
-
-  }
+    }
 
 
   .columnas  {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-
-
-  
-  
-    
-    
   }
  .columnas a {
   width: 100%;
@@ -60,7 +76,7 @@
   }
 
   svg:hover {
-    color: rgba(0, 0, 255, 0.514);
+    color: rgba(153, 0, 255, 0.651);
   }
 
     /* Responsive layout - makes a two column-layout instead of four columns */
@@ -78,3 +94,7 @@
           max-width: 100%;
         }
       }
+
+
+
+
